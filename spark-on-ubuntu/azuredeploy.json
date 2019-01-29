@@ -371,7 +371,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat('mastervm', copyindex(), '/installsparkmaster')]",
-      "apiVersion": "2015-05-01-preview",
+      "apiVersion": "2017-03-30",
       "location": "[parameters('location')]",
       "copy": {
         "name": "virtualMachineExtensionsLoopMaster",
@@ -397,7 +397,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat('slavevm', copyindex(), '/installsparkslave')]",
-      "apiVersion": "2015-05-01-preview",
+      "apiVersion": "2017-03-30-preview",
       "location": "[parameters('location')]",
       "copy": {
         "name": "virtualMachineExtensionsLoopSlave",
