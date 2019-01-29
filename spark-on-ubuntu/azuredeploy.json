@@ -212,7 +212,7 @@
       }
     },
     {
-      "apiVersion": "2017-10-01-30",
+      "apiVersion": "2017-10-01",
       "type": "Microsoft.Network/networkInterfaces",
       "name": "[concat('nic', copyindex())]",
       "location": "[parameters('location')]",
